@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "clean": "rm -rf node_modules *-lock.json *.lock",
     "start":"node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
